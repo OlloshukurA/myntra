@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+body .wrapper .header .header--nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70px;
+  -webkit-box-shadow: 0px 13px 30px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 13px 30px 0px rgba(34, 60, 80, 0.2);
+}
+
+body .wrapper .header .header--nav .nav--list {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrapper .header .header--nav .nav--list img {
+  width: 53px;
+  height: 36px;
+  margin: 50px;
+}
+
+body .wrapper .header .header--nav .nav--list li {
+  position: relative;
+}
+
+body .wrapper .header .header--nav .nav--list li:not(:first-child) {
+  margin-left: 20px;
+}
+
+body .wrapper .header .header--nav .nav--list li:hover::before {
+  content: "";
+  position: absolute;
+  bottom: -22px;
+  width: 100%;
+  border-bottom: 3px solid #ff3f6c;
+}
+
+body .wrapper .header .header--nav .nav--list li:hover:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  bottom: -22px;
+  width: 100%;
+  border-bottom: 3px solid #fb56c1;
+}
+
+body .wrapper .header .header--nav .nav--list li:hover:nth-child(4)::before {
+  content: "";
+  position: absolute;
+  bottom: -22px;
+  width: 100%;
+  border-bottom: 3px solid #f26a10;
+}
+
+body .wrapper .header .header--nav .nav--list li:hover:nth-child(5)::before {
+  content: "";
+  position: absolute;
+  bottom: -22px;
+  width: 100%;
+  border-bottom: 3px solid #f2c210;
+}
+
+body .wrapper .header .header--nav .nav--list li:hover:nth-child(6)::before {
+  content: "";
+  position: absolute;
+  bottom: -22px;
+  width: 100%;
+  border-bottom: 3px solid #0db7af;
+}
+
+body .wrapper .header .header--nav .nav--list li:hover:nth-child(7)::before {
+  content: "";
+  position: absolute;
+  bottom: -22px;
+  width: 100%;
+  border-bottom: 3px solid #ff3f6c;
+}
+
+body .wrapper .header .header--nav .nav--list li a {
+  color: #282c3f;
+  font-size: 14px;
+  letter-spacing: .3px;
+  -webkit-transition: left .2s ease-out,width .2s ease-out;
+  transition: left .2s ease-out,width .2s ease-out;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+body .wrapper .header .header--nav .nav--list li a span {
+  position: absolute;
+  top: -5px;
+  right: -32px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff3f6c;
+  font-size: 12px;
+}
+
+body .wrapper .header .header--nav .nav--input_container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+  margin-left: 100px;
+}
+
+body .wrapper .header .header--nav .nav--input_container .search {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+body .wrapper .header .header--nav .nav--input_container input {
+  width: 355px;
+  height: 40px;
+  outline: none;
+  padding: 0 10px 0 50px;
+  border: 1px solid #f5f5f6;
+  border-radius: 0 4px 4px 0;
+  background-color: #f5f5f6;
+}
+
+body .wrapper .header .header--nav .nav--icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 30px;
+}
+
+body .wrapper .header .header--nav .nav--icons .icon {
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrapper .header .header--nav .nav--icons .icon .user {
+  width: 24px;
+  height: 24px;
+}
+
+body .wrapper .header .header--nav .nav--icons .icon p {
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-block;
+  padding-top: 10px;
+  line-height: 6px;
+}
+
+body .wrapper .header .header--slider {
+  margin-top: 50px;
+  width: 100%;
+  height: 385px;
+}
+
+body .wrapper .header .header--slider .slider img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+body .wrapper .header .header--slider .slider .slider--dots {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+body .wrapper .header .header--slider .slider .slider--dots .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #3e4152;
+  border-radius: 50%;
+  margin: 0 10px 0 10px;
+  cursor: pointer;
+  opacity: 0.2;
+  -webkit-transition: 0.2 ease;
+  transition: 0.2 ease;
+}
+
+body .wrapper .header .header--slider .slider .slider--dots .dot:hover {
+  -webkit-transition: .3s ease-in;
+  transition: .3s ease-in;
+  opacity: 1;
+}
+
+body .wrapper .products .first--title {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: .15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 500;
+}
+
+body .wrapper .products .products--conatiner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  width: 90%;
+  margin: 75px auto;
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
+}
+
+body .wrapper .products .products--conatiner img {
+  width: 100%;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+body .wrapper .products .s--container {
+  row-gap: 50px;
+}
+
+body .wrapper .products .categories {
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+}
+
+body .wrapper .products .fi--container {
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+}
+
+body .wrapper .products .se--container {
+  row-gap: 10px;
+}
+/*# sourceMappingURL=style.css.map */
